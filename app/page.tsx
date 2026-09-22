@@ -86,6 +86,7 @@ export default function Home() {
 
       <form className="input-row" onSubmit={handleSubmit}>
         <input
+          id="todo-input"
           type="text"
           placeholder="やることを入力…"
           autoComplete="off"
