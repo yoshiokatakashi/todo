@@ -43,7 +43,7 @@ body {
 
 .app {
   width: 100%;
-  max-width: 480px;
+  max-width: 640px;
   background: var(--card-bg);
   border-radius: 16px;
   padding: 24px;

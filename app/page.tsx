@@ -153,7 +153,9 @@ export default function Home() {
 
       <div className="footer">
         <span>{remaining} 件残り</span>
-        <button onClick={clearCompleted}>完了済みを削除</button>
+        <button id="clear-completed" onClick={clearCompleted}>
+          完了済みを削除
+        </button>
       </div>
     </div>
   );
